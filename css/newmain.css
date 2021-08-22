@@ -1,7 +1,7 @@
 
 /* header */
 .header__navbar-background {
-    background-image: url("https://davinci95.github.io/travel/img/parallax-2.jpg");
+    background-image: url(https://davinci95.github.io/travel);
     background-position: center;
     width: 100%;
 }
@@ -498,7 +498,7 @@
 /* detail backages */
 
 .detail__backages-wrap {
-    background-image: url("https://davinci95.github.io/travel/img/parallax-search-2.jpg");
+    background-image: url(https://davinci95.github.io/travel/img/parallax-search-2.jpg);
     height: 180px;
     background-repeat: none;
     background-size: cover;
@@ -665,21 +665,21 @@
 
 
 .slide-img1 {
-    background-image: url("https://davinci95.github.io/travel/img/package-3.jpg");
+    background-image: url(https://davinci95.github.io/travel/img/package-3.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
 }
 
 .slide-img2 {
-    background-image: url("https://davinci95.github.io/travel/img/parallax-4.jpg");
+    background-image: url(https://davinci95.github.io/travel/img/parallax-4.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
 }
 
 .slide-img3 {
-    background-image: url("https://davinci95.github.io/travel/img/parallax-4-1.jpg");
+    background-image: url(https://davinci95.github.io/travel/img/parallax-4-1.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
