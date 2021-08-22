@@ -759,10 +759,11 @@
     background-color: #14b9d5;
     z-index: 5;
     position: absolute;
-    bottom: 52px;
-    right: 21%;
+    bottom: 0;
+    right: 0;
     text-align: center;
     width: 400px;
+    transform: translateX(-50%);
 }
 
 .counter__time {
