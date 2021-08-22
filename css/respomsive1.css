@@ -1,0 +1,313 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .header__navbar-sidebar {
+        display: none;
+        z-index: -1;
+    }
+
+    .header__navbar-bottom-header h1 {
+        line-height: initial;
+    }
+
+    .header__navbar-wrap {
+        display: block;
+        text-align: center;
+    }
+
+    .header__navbar-logo {
+        padding-top: 10px;
+    }
+
+    .header__navbar-item {
+        cursor: none;
+        font-weight: 600;
+    }
+
+    .header__navbar-item:last-child {
+        margin-left: 0;
+        background-color: transparent;
+        margin-left: 8px;
+    }
+    
+    .hide-on-pc {
+        display: inline-block;
+    }
+
+    .hide-on-motab {
+        display: none;
+    }
+
+    #check-box-sidebar-motab:checked ~ .header__navbar-list-wrap {
+        transform: translateX(0);
+    }
+    .header__navbar-list-wrap{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 250px;
+        transform: translateX(100%);
+        transition: transform linear 0.3s;
+        z-index: 1;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .header__navbar-list {
+        display: block;
+        background-color: rgb(85, 85, 85);
+        width: 100%;
+        text-align: left;
+        z-index: 1;
+        padding: 10px 20px;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .packages-submenu {
+        display: block;
+        position: relative;
+        left: 0;
+        top: 12px;
+        margin-right: 0;
+        background-color: rgb(85, 85, 85);
+        box-shadow: none;
+    }
+    .packages-submenu-list p{
+        display: none;
+    }
+    .packages-submenu-second-list,
+    .packages-submenu-list {
+        display: block;
+        background-color: rgb(85, 85, 85) !important;
+        border-bottom: none;
+    }
+
+    
+    .arrow-right::after {
+        display: none;
+    }
+
+    .packages-submenu-second {
+        display: block;
+        padding-left: 0;
+        position: relative;
+        top: 11px;
+        left: 9px;
+        background-color: rgb(85, 85, 85);
+    }
+     
+    .header__navbar-item:nth-child(6):hover .packages-submenu-second,
+    .header__navbar-item:nth-child(5):hover .packages-submenu-second ,
+    .header__navbar-item:nth-child(2):hover .packages-submenu-second {
+        display: block;
+    }
+    /* .packages-submenu-list:nth-child(2):hover .packages-submenu-second,
+    .packages-submenu-list:nth-child(3):hover .packages-submenu-second,
+    .packages-submenu-list:nth-child(8):hover .packages-submenu-second,
+    .packages-submenu-list:nth-child(9):hover .packages-submenu-second,
+    .header__navbar-item:nth-child(2):hover .packages-submenu,
+    .header__navbar-item:nth-child(3):hover .packages-submenu,
+    .header__navbar-item:nth-child(4):hover .packages-submenu,
+    .header__navbar-item:nth-child(5):hover .packages-submenu,
+    .header__navbar-item:nth-child(6):hover .packages-submenu,
+    .header__navbar-item:nth-child(7):hover .packages-submenu {
+        display:block;
+        background-color: rgb(85, 85, 85);
+    } */
+
+    .click {
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 8px;
+    }
+
+    .close-button {
+        display: block;
+    }
+
+    .header__navbar-bottom-relax {
+        display: flex;
+    }
+
+    .relax-option,
+    .relax-link {
+        width: 100%;
+    }
+
+    /* begin container */
+
+    .detail__backages-wrap{
+        height: 210px;
+    }
+    .detail__backages-content {
+        margin: 20px 0;
+    }
+
+    .detail__backages-content h3 {
+        width: 200px;
+        height: 40px;
+        font-size: 1.4rem;
+        line-height: 33px;
+    }
+
+    /* section content */
+
+    .place-wrap {
+        height: 100%;
+    }
+    .counter {
+        /* display: none; */
+        width: 100%;
+        right: 20px;
+        position: relative;
+        right: 0;
+    }
+
+    .place-content__wrap {
+        width: 100%;
+        height: 500px;
+    }
+
+    .option__place {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .footer__heading {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    
+    
+    .footer__list-wrap {
+        flex-direction: column;
+    }
+
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .travel-secction-featured-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .continents-name {
+        font-size: 5rem !important;
+    }
+
+    .number-backage {
+        margin-top: 30px !important;
+        font-size: 3rem !important;
+    }
+
+    .devide::after {
+        right: -60px;
+        height: 50px;
+    }
+
+    /* footer */
+
+    .footer__slogan-input {
+        width: 76%;
+    }
+
+    .footer__slogan-input-btn {
+        width: 137px;
+    }
+
+    .footer__slogan {
+        padding-left: 0 !important;
+    }  
+    .silde-auto {
+        width: 644px !important;
+    } 
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .header__navbar-bottom {
+        padding: 20px;
+    }
+
+    .header__navbar-bottom-content h6{
+        line-height: 25px;
+    }
+
+    .destination-places {
+        padding: 0 10px;
+    }
+
+    .travel-secction-featured-img {
+        width: 47px;
+        height: 47px;
+    }
+
+    /* section content */
+
+    .place-content__wrap {
+        width: 100%;
+        height: 293px;
+        margin: 0 38px;  
+    }
+
+    .silde-auto {
+        width: 310px;
+    }
+
+    .counter__time {
+        flex-direction: column;
+    }
+
+    .counter {
+        width: 300px;
+        right: -38px;
+    }
+
+    .devide::after {
+        display: none;
+    }
+
+    .tour_wrap {
+        padding: 0 20px;
+    }
+
+    .pd-on-moble {
+        padding: 0 10px;
+    }
+
+    /* footer endding */
+
+    .footer__slogan {
+        padding-left: 20px!important;
+    }
+    .footer__slogan-input {
+        width: 100%;
+    }
+
+    .footer__slogan-input-btn {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .line-height {
+        line-height: 38px!important;
+    }
+
+    .footer__background {
+        padding: 0 20px;
+    }
+
+    .footer__endding {
+        justify-content: center;
+    }
+   
+}
