@@ -30,8 +30,8 @@
 
 
 .header__navbar-item {
-    padding: 16px 12px;
-    font-size: 1.2rem;
+    padding: 16px;
+    font-size: 1.6rem;
     cursor: pointer;
     position: relative;
 }
@@ -41,7 +41,7 @@
     top: 100%;
     left: -10px;
     width: 150px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     background-color: #f9f9f9;
     box-shadow: 0 0 5px #f1f1f1;
     color: #a3a3a3;
@@ -291,13 +291,14 @@
 }
 
 .continents-name {
-    font-size: 1.8rem;
+    font-size: 3rem;
     margin-bottom: 4px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .number-backage {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .fadein-section-wrap {
@@ -317,16 +318,17 @@
 
 .fadein-section {
     padding: 8px;
+    margin: 70px;
 }
 
 .fadein-heading {
     padding: 8px 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .fadein-content {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin: 6px;
 }
 
@@ -337,9 +339,9 @@
     color: #14b9d5;
     display: inline-block;
     width: 130px;
-    height: 20px;
+    height: 30px;
     background-color: #fff;
-    line-height: 20px;
+    line-height: 32px;
     border-radius: 20px;
 }
 
@@ -457,9 +459,10 @@
 }
 
 .destination-heading h3 {
-    font-style: 1.2rem;
+    font-size: 1.4rem;
     color: #9a9a9a;
     font-weight: 300;
+    margin-top: 50px;
 }
 
 .destination-heading h2 {
@@ -609,9 +612,10 @@
     display: inline-block;
     color: #fff;
     background-color: #1bbc9b;
-    padding: 8px 32px;
+    padding: 12px 32px;
     border-radius: 20px;
-    margin-top: 12px;   
+    margin-top: 12px;
+    font-size: 1.4rem  
 }
 
 /* slide show */
@@ -728,7 +732,7 @@
     display: flex;
     position: absolute;
     justify-content: center;
-    width: 590px;
+    width: 700px;
     top: 20px;
 }
 
@@ -757,17 +761,11 @@
 
 .counter {
     background-color: #14b9d5;
-    z-index: 5;
     position: absolute;
-    bottom: 0;
-    
-    right: 0;
+    bottom: 42px;
     text-align: center;
     width: 400px;
-    transform: translateX(-50%);
-    -o-transform: translateX(-78%);
-    /* -ms-transform: translateX(-78%); */
-
+    right: 300px;
 }
 
 .counter__time {
@@ -811,7 +809,7 @@
 /* tour content */
 
 .tour_wrap {
-    margin-top: 90px;
+    margin: 90px 0;
 }
 
 .tour-content {
@@ -831,7 +829,7 @@
 }
 
 .tour-detail {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 2rem;
     color: #9a9a9a;
 }
@@ -839,13 +837,14 @@
 .tour-link {
     text-decoration: none;
     color: #14b9d5;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* option place */
 
 .option__place {
-    margin: 20px 0 50px 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .option__place-city {
