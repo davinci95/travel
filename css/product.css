@@ -1,0 +1,178 @@
+/* header */
+.header__navbar-background {
+    background-image: url(https://davinci95.github.io/travel/img/parallax-4-1.jpg);
+    background-position: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.background-color {
+    background-color: rgba(67, 74, 84, 0.3);
+}
+/* header-top */
+.header__navbar-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    z-index: 1;
+    color: #fff;
+    background-color: rgba(0,0,0, 0.2);
+}
+
+.header__navbar-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+    align-items: center;
+    margin-left: -90px;
+    position: relative;
+}
+
+.header__navbar-content {
+    margin: 0 200px;
+    font-size: 4rem;
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* container */
+
+.over_view {
+    margin-top: 30px;
+}
+.product-img-big,
+.product__gallery-img--bigger {
+    width: 550px;
+    height: 500px;
+}
+
+.product-img-small {
+    width: 104px;
+    height: 104px;
+    margin: 6px 2px;
+}
+
+.product__tittl {
+    font-size: 3rem;
+    color: #555555;
+}
+.rate-star {
+    font-size: 1.2rem;
+    color: #a3a3a3;
+}
+
+.price {
+    color: #a3a3a3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.price-unit {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 44px;
+    padding-right: 3px;
+}
+
+.price-number {
+    font-size: 3rem;
+}
+
+.product-description {
+    font-size: 1.6rem;
+    color: #9a9a9a;
+    line-height: 24px;
+}
+
+table {
+    margin: 28px 0;
+}
+
+.product-type {
+    font-size: 1.8rem;
+    color: #555555;
+    padding-right: 40px;
+    vertical-align: top;
+}
+
+.product-choose {
+    font-size: 1.4rem;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 11px;
+    -webkit-appearance: none;
+    color: #a3a3a3;
+    border-color: #f1f1f1;
+    background-color: #f9f9f9;
+}
+
+.product-clear {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #f76570;
+    display: inline-block;
+    width: 71px;
+    height: 30px;
+    vertical-align: unset;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 16px;
+}
+
+.product-quantity {
+    margin: 20px 0;
+}
+
+.product-quantity input {
+    height: 34px;
+    width: 90px;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+    color: #a3a3a3;
+    background-color: #f9f9f9;
+    outline: none;
+    border: 2px solid #f1f1f1;
+}
+
+.product-quantity-btn {
+    width: 124px;
+    height: 30px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    background-color: #1bbc9b;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.sku-wrap {
+    margin: 5px 0;
+    font-size: 1.6rem;
+}
+
+.sku-wrap span {
+    border: 1px solid #f1f1f1;
+    color: #a3a3a3;
+    height: 1;
+    vertical-align: middle;
+    height: 30px;
+    display: inline-block;
+    line-height: 26px;
+    width: 121px;
+    text-align: center;
+    cursor: pointer;
+}

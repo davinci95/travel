@@ -237,6 +237,7 @@
 }
 
 /* mobile */
+
 @media (max-width: 739px) {
     .header__navbar-bottom {
         padding: 20px;
@@ -272,8 +273,9 @@
     }
 
     .counter {
-        width: 300px;
+        width: 100%;
         right: -38px;
+        margin-right: 76px;
     }
 
     .devide::after {

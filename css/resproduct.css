@@ -1,0 +1,24 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .header__navbar-content {
+        margin-left: 20px;
+        padding: 150px 0 50px;
+    }
+    .product__gallery-img--bigger,
+    .product-img-big {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .header__navbar-content {
+        font-size: 3rem;
+    }
+}
